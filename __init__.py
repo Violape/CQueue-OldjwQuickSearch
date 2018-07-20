@@ -88,7 +88,8 @@ url = {
     'sumscore': 'http://oldjw.cqu.edu.cn:8088/score/sel_score/sum_score_sel.asp'
 }
 
-cookie = getCookie(url['login']) #获取当前页面的cookie
+#获取当前页面的cookie
+cookie = getCookie(url['login'])
 
 #从当前目录下的input.txt读入文件，用户名占一行，密码占一行，以此类推
 inpath ='input.txt'
