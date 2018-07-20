@@ -54,3 +54,6 @@ The input should be written in **input.txt**, with one line for username, one li
 
 ## Output
 The output is in **output.csv**, which can be directly opened by *Microsoft Excel*. Further edition can be done by saving the file as a normal excel file (.xlsx).
+
+## Acknowledgement
+I would like to appreciate @Maxoyed-MS for his help in his assistance in basic worm & beautifulsoup techniques.
