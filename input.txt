@@ -1,0 +1,9 @@
+***This is a sample file for input data.***
+***Please delete all of the contents of this file before inputting data. ***
+***An example is shown below: ***
+20160000
+000000
+20168899
+ilovegithub
+DZ201600
+123456
