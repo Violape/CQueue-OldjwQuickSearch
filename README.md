@@ -53,7 +53,8 @@ The input should be written in **input.txt**, with one line for username, one li
 **Note that we should not input too many lines, for the website might block our request if we are doing too many login operations. Further more, Excel can only process 65536(.xls) or 1045876(.xlsx) lines of data if we need to make a further edition. We should NOT save too much data into this file.**
 
 ## Output
-The output is in **output.csv**, which can be directly opened by *Microsoft Excel*. Further edition can be done by saving the file as a normal excel file (.xlsx).
+The output is in **output.csv**, which can be directly opened by *Microsoft Excel*. Further edition can be done by saving the file as a normal excel file (.xlsx).<br>
+If the finding of a certain account fails, the script will output a record to **fail.log**. The user can check which account fails after the execution.
 
 ## Acknowledgement
 I would like to appreciate @Maxoyed-MS for his help in his assistance in basic worm & beautifulsoup techniques.
