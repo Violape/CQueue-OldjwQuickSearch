@@ -35,7 +35,7 @@ Many students are complaining about this website for it is unable to search his/
 </div>
 <!-- 第二开始 -->
 ```
-We know why we cannot find the button. By capturing the code, we know the target address is http://oldjw.cqu.edu.cn:8088/score/sel_score/sum_score_sel.asp. Based on this, we write a script to log on it, get the score and analyze the text into an Excel file (.csv). 
+From the code we know why we cannot find the button. The target address is show in this code, we only need to open it manually. The address is http://oldjw.cqu.edu.cn:8088/score/sel_score/sum_score_sel.asp. Based on this, we write a script to log on it, get the score and analyze the text into an Excel file (.csv). 
 
 ## Resources to be imported
 ```Java
@@ -50,7 +50,7 @@ BeautifulSoup needs to be installed before running this code.<br>
 
 ## Input
 The input should be written in **input.txt**, with one line for username, one line for password (default password is the last 6 characters of the ID card). If more students' score is needed, you can add a line of username and a line of password after the first one. <br>
-> Note that we should not input too many lines, for the website might block our request if we are doing too many login operations. Further more, Excel can only process 65536(.xls) or 1045876(.xlsx) lines of data if we need to make a further edition. We should NOT save too much data into this file.
+**Note that we should not input too many lines, for the website might block our request if we are doing too many login operations. Further more, Excel can only process 65536(.xls) or 1045876(.xlsx) lines of data if we need to make a further edition. We should NOT save too much data into this file.**
 
 ## Output
-The output is in **output.csv**, which can be directly opened by Microsoft Excel. Further edition can be done by saving the file as a normal excel file (.xlsx).
+The output is in **output.csv**, which can be directly opened by *Microsoft Excel*. Further edition can be done by saving the file as a normal excel file (.xlsx).
